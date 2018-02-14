@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- media queries -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- character set -->
+		<meta charset="utf-8">
+		<!-- title -->
+		<title>Matrix</title>
+		<!-- Font awesome -->
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<!-- bootstrap CDN-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- css Reset -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Animate css -->
+		<link rel="stylesheet"  href="css/animate.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-lg-10 text-center">
+					<h1>Sign in to the Matrix</h1>
+				</div>
+			</div>
+		</div>
+		<!-- login information -->
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class=" col-lg-12">
+					<form class="text-center">
+						<div class="row justify-content-lg-center">
+							<div class="col-lg-3">
+								<h2 class="float-left">Username</h2>
+							</div>
+						</div>
+						<input id="userName" type="text" name="" placeholder="USERNAME">
+						<br>
+						<div class="row justify-content-lg-center">
+							<div class="col-lg-3">
+								<h2 class="float-left">Password</h2>
+							</div>
+						</div>
+						<input id="passWord" type="text" name="" placeholder="PASSWORD">
+						<br>
+						<button class="btn-primary mt-4" type="button" onclick="getInfo()">Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- displpay information for correct of incorrect username/password -->
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-lg-7">
+					<h4 id="displayLogin"></h4>
+				</div>
+			</div>
+		</div>
+	
+			
+		<!-- jquery CDN -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		<!-- scrollto js -->
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<!-- custom js -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
